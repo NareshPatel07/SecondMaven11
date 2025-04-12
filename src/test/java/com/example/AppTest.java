@@ -15,7 +15,7 @@ public class AppTest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         Thread.sleep(2000);
-        driver.get("https://github.com/NareshPatel07/SecondMaven11.git/");// here enter static website URL from your GITHUB
+        driver.get("https://nareshpatel07.github.io/SecondMaven11/");// here enter static website URL from your GITHUB
     }
 
     @Test
